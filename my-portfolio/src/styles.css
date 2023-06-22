@@ -1,0 +1,20 @@
+body.light-mode {
+  --bg: #f4f4f2;
+  --fg: #333;
+  --btn: #4caf50;
+}
+
+body.dark-mode {
+  --bg: #333;
+  --fg: #f4f4f2;
+  --btn: #ff4081;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+button {
+  background-color: var(--btn);
+}
